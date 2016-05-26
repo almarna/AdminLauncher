@@ -1,0 +1,33 @@
+[
+  {
+    "Name": "Visual Studio 2013",
+    "Program": "C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\Common7\\IDE\\devenv.exe",
+    "WorkingDirectory": "C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\Common7\\IDE\\"
+  },
+  {
+    "Name": "Visual Studio 2015",
+    "Program": "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\IDE\\devenv.exe",
+    "WorkingDirectory": "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\IDE\\"
+  },
+  {
+    "Name": "Powershell",
+    "Program": "powershell.exe",
+    "WorkingDirectory": "%SystemRoot%\\system32\\WindowsPowerShell\\v1.0\\"
+  },
+  {
+    "Name": "Command prompt",
+    "Program": "cmd.exe",
+    "WorkingDirectory": "%HOMEDRIVE%%HOMEPATH%"
+  },
+  {
+    "Name": "Windows Explorer",
+    "Program": "explorer.exe",
+    "WorkingDirectory": "%HOMEDRIVE%%HOMEPATH%"
+  },
+  {
+    "Name": "Edit config",
+    "Program": "notepad.exe",
+    "Arguments": "C:\\Program Files\\AdminLauncher\\StartPrograms.json",
+    "WorkingDirectory": "C\\Windows\\System32"
+  }
+]
