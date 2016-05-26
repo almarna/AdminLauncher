@@ -95,7 +95,7 @@ namespace AdminLauncher
                 return;
             }
 
-            log($"Startar {startProgram.Name}");
+            log(string.Format("Startar {0}", startProgram.Name));
             run(startProgram);
         }
 
@@ -111,7 +111,7 @@ namespace AdminLauncher
 
         private void log(string data)
         {
-            string text = $"{DateTime.Now.ToShortTimeString()}: {data}\r\n";
+            string text = string.Format("{0}: {1}\r\n", DateTime.Now.ToShortTimeString(), data);
             tbLog.AppendText(text);
         }
 
